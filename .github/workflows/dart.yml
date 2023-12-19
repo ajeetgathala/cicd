@@ -20,6 +20,7 @@ jobs:
       - run: flutter pub get
       - run: flutter test
       - run: flutter build apk
+      - run: flutter build appbundle
 
 #      - run: flutter build appbundle --flavor prod
 #              will be committed from here
